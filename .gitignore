@@ -1,0 +1,21 @@
+# Gradle / Android build output
+.gradle/
+.kotlin/
+build/
+*/build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+
+# Local machine configuration (contains your SDK path)
+local.properties
+
+# IDE / OS files
+.idea/
+*.iml
+.DS_Store
+
+# Personal wallpaper: add your own, the app falls back to a gradient (see README)
+app/src/main/res/drawable-nodpi/wallpaper.jpg
