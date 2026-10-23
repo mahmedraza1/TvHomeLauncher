@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default wallpaper. Drop a 1280x720 wallpaper.jpg into res/drawable-nodpi/ to override it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1280dp"
+    android:height="720dp"
+    android:viewportWidth="1280"
+    android:viewportHeight="720">
+    <path android:pathData="M0,0h1280v720h-1280z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="1280"
+                android:endY="720">
+                <item android:offset="0.0" android:color="#FF1B2B52" />
+                <item android:offset="0.55" android:color="#FF0B1020" />
+                <item android:offset="1.0" android:color="#FF05070D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
