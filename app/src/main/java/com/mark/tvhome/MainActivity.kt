@@ -77,7 +77,7 @@ import java.time.format.DateTimeFormatter
 import java.util.Locale
 
 // City used for the weather widget (looked up via Open-Meteo, no API key needed).
-private const val WEATHER_CITY = "Jaranwala"
+private const val WEATHER_CITY = "Lahore"
 
 class MainActivity : ComponentActivity() {
     private val resumeTick = mutableIntStateOf(0)
